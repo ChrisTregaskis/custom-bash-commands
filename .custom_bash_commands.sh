@@ -33,13 +33,13 @@ function g() {
 
   pl)
     branch=$(git symbolic-ref --short HEAD)
-    echo pulling branch: "$branch"
+    echo Pulling branch: "$branch"
     git pull
   ;;
 
   ph)
     branch=$(git symbolic-ref --short HEAD)
-    echo pushing branch: "$branch"
+    echo Pushing branch: "$branch"
     git push
   ;;
 
